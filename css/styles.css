@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap');
+
+
+:root {
+    --NAVY-BLUE: rgba(46, 47, 66, 1);
+    --IRIS: rgba(77, 90, 229, 1);
+    --SLATE: rgba(67, 68, 85, 1);
+    --OCEAN: #404BBF;
+    --WHITE: #FFF;
+    --CORNFLOWER: rgba(231, 233, 252, 1);
+    --CLOUD: #F4F4FD;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    color: var(--NAVY-BLUE);
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.32px;
+}
+
+footer {
+    background-color: var(--NAVY-BLUE);
+    color: var(--CLOUD);
+}
+
+footer .logo .logo-text{
+    color: var(--CLOUD);
+}
+
+h1 {
+    color: var(--WHITE);
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 107.143%;
+    letter-spacing: 1.12px;
+}
+
+button {
+    cursor: pointer;
+    padding: 16px 34px;
+    border-radius: 4px;
+    background: var(--IRIS, #4D5AE5);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: var(--WHITE);
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.64px;
+}
+
+.logo {
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 116.667%;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.logo span {
+    color: var(--IRIS);
+}
+
+.logo .logo-text {
+    color: var(--NAVY-BLUE);
+}
+
+nav {
+    gap: 40px;
+}
+
+nav .navbar-text {
+    color: var(--NAVY-BLUE);
+    font-weight: 500;
+}
+
+.navbar-text:hover {
+    color: var(--OCEAN);
+}
+
+.contacts .contacts-text{
+    color: var(--SLATE);
+}
+
+.contacts .contacts-text:hover{
+    color: var(--OCEAN);
+}
+
+.hero {
+    margin: 0;
+    background: var(--NAVY-BLUE);
+    text-align: center;
+}
+
+.hero button:hover {
+    color: var(--NAVY-BLUE);
+    background-color: var(--CLOUD);
+}
+
+.filters button{
+    background-color: var(--CLOUD);
+    color: var(--IRIS);
+    cursor: pointer;
+}
+
+.filters button:hover{
+    background-color: var(--OCEAN);
+    color: white;
+}
