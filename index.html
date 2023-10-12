@@ -8,25 +8,30 @@
 </head>
 <body>
     <header>
-        <!-- LOGO -->
-        <div class="logo">
-            <a href="index.html">
-                <p class="logo-text"><b><span>WEB</span>STUDIO</b></p>
-            </a>
-        </div>
+        <div class="first-half">
 
-        <!-- Navbar -->
-        <nav>
-            <a href="#">
-                <b class="navbar-text">Studio</b>
-            </a>
-            <a href="portfolio.html">
-                <b class="navbar-text">Portfolio</b>
-            </a>
-            <a href="#">
-                <b class="navbar-text">Contacts</b>
-            </a>
-        </nav>
+            <!-- LOGO -->
+            <div class="logo">
+                <a href="index.html">
+                    <p class="logo-text"><b><span>WEB</span>STUDIO</b></p>
+                </a>
+            </div>
+
+            <!-- Navbar -->
+            <nav>
+                <a href="#">
+                    <b class="navbar-text">Studio</b>
+                </a>
+                <a href="portfolio.html">
+                    <b class="navbar-text">Portfolio</b>
+                </a>
+                <a href="#">
+                    <b class="navbar-text">Contacts</b>
+                </a>
+            </nav>
+
+        </div>
+        
 
         <!-- Mail & Telephone -->
         <div class="contacts">
@@ -44,7 +49,7 @@
         <!-- Front Page -->
         <section class="hero">
             <div>
-                <h1>Effective Solutions for Your Business</h1>
+                <h1>Effective Solutions <br>for Your Business</h1>
             </div>
             <div>
                 <button>Order Service</button>
@@ -85,63 +90,73 @@
         </section>
 
         <!-- Services -->
-        <section>
+        <section class="services">
             <div>
                 <h2>What Are We Doing</h2>
             </div>
-            <div>
-                <img src="./images/service1.jpg" alt="Photo of Monitor" width="360" height="300"> 
-            </div>
-            <div>
-                <img src="./images/service2.jpg" alt="Photo of Mobile Phone Screen" width="360" height="300">
-            </div>
-            <div>
-                <img src="./images/service3.jpg" alt="Photo of Phone & Laptop" width="360" height="300">
+    
+            <div class="services-img">
+                <div>
+                    <img src="./images/service1.jpg" alt="Photo of Monitor" width="360" height="300"> 
+                </div>
+                <div>
+                    <img src="./images/service2.jpg" alt="Photo of Mobile Phone Screen" width="360" height="300">
+                </div>
+                <div>
+                    <img src="./images/service3.jpg" alt="Photo of Phone & Laptop" width="360" height="300">
+                </div>
             </div>
         </section>
         
+        
         <!-- Team -->
-        <section>
-            <div><h2>Our Team</h2></div>
-            <!-- Mark Guerrero -->
+        <section class="team">
             <div>
-                <img src="./images/markg.jpg" alt="Photo of Mark Guerrero" width="264" height="260">
-                <div>
-                    <h3>Mark Guerrero</h3>
-                    <p>Product Designer</p>
+                <h2>Our Team</h2>
+            </div>
+
+            <div class="team-img">
+                <!-- Mark Guerrero -->
+                <div class="team-img-card">
+                    <img src="./images/markg.jpg" alt="Photo of Mark Guerrero" width="264" height="260">
+                    <div class="card-content">
+                        <h3>Mark Guerrero</h3>
+                        <p>Product Designer</p>
+                    </div>
+                </div>
+                <!-- Tom Ford -->
+                <div class="team-img-card">
+                    <img src="./images/tomf.jpg" alt="Photo of Tom Ford" width="264" height="260">
+                    <div class="card-content">
+                        <h3>Tom Ford</h3>
+                        <p>Frontend Developer</p>
+                    </div>
+                </div>
+                <!-- Camila Garcia -->
+                <div class="team-img-card">
+                    <img src="./images/camilag.jpg" alt="Photo of Camila Garcia" width="264" height="260">
+                    <div class="card-content">
+                        <h3>Camila Garcia</h3>
+                        <p>Marketing</p>
+                    </div>
+                </div>
+                <!-- Daniel Wilson -->
+                <div class="team-img-card">
+                    <img src="./images/danielw.jpg" alt="Photo of Daniel Wilson" width="264" height="260">
+                    <div class="card-content">
+                        <h3>Daniel Wilson</h3>
+                        <p>UI Designer</p>
+                    </div>
                 </div>
             </div>
-            <!-- Tom Ford -->
-            <div>
-                <img src="./images/tomf.jpg" alt="Photo of Tom Ford" width="264" height="260">
-                <div>
-                    <h3>Tom Ford</h3>
-                    <p>Frontend Developer</p>
-                </div>
-            </div>
-            <!-- Camila Garcia -->
-            <div>
-                <img src="./images/camilag.jpg" alt="Photo of Camila Garcia" width="264" height="260">
-                <div>
-                    <h3>Camila Garcia</h3>
-                    <p>Marketing</p>
-                </div>
-            </div>
-            <!-- Daniel Wilson -->
-            <div>
-                <img src="./images/danielw.jpg" alt="Photo of Daniel Wilson" width="264" height="260">
-                <div>
-                    <h3>Daniel Wilson</h3>
-                    <p>UI Designer</p>
-                </div>
-            </div>
+            
         </section>
 
     </main>
 
     <footer>
         <!-- Logo Section -->
-        <section>
+        <section class="footer-text">
             <!-- LOGO -->
             <div>
                 <div class="logo">
@@ -151,21 +166,11 @@
                 </div>
             </div>
             <!-- Description -->
-            <div>
+            <div class="description">
                 <p>Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
             </div>
         </section>
         <!-- End of Logo Section -->
-
-        <!-- Social Media Section -->
-        <section>
-            <p>Social Media</p>
-            <img src="images/iglogo.png" alt="Logo of Instagram">
-            <img src="images/twitterlogo.png" alt="Logo of Twitter">
-            <img src="images/fblogo.png" alt="Logo of Facebook">
-            <img src="images/linkedinlogo.png" alt="Logo of LinkedIn">
-        </section>
-        <!-- End of  -->
     </footer>
     
 </body>
